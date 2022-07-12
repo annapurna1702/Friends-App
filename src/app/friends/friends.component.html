@@ -1,0 +1,21 @@
+<div class="container">
+    <div class="row">
+        <div class="col col-12 col-sm-12 col-md-12 col-lg-12 col-xl-12 col-xxl-12">
+            <div class="row g-3">
+                <div  *ngFor="let i of data" class="col col-12 col-sm-6 col-md-6 col-lg-4 col-xl-3 col-xxl-3">
+                    <div class="card" >
+                        <div class="card-body">
+                          <h5 class="card-title">Name:{{i.name}}</h5>
+                          <br />
+                          <h5 class="card-title">Friend's name:{{i.friendName}}</h5>
+                          <h6 class="card-subtitle mb-2 text-muted">Nickname of the friend:{{i.friendNickName}}</h6>
+                          <p class="card-text">Description of the friend:{{i.DescribeYourFriend}}</p>
+                          
+                        </div>
+                      </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</div>
